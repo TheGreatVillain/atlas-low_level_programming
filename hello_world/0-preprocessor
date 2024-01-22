@@ -1,11 +1,2 @@
 #!/bin/bash
-
-# Get the name of the C file from the user
-echo "Enter the name of the C file:"
-read CFILE
-
-# Run the preprocessor on the C file
 gcc -E $CFILE -o c
-
-# Print a message to the user
-echo "The preprocessed C file is saved in the file c." 
